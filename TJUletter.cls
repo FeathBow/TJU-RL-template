@@ -58,7 +58,7 @@
 \newcommand{\letterdate}[1]{\def\@letterdate{#1}}
 
 % Default values
-\def\@senderphone{+86-22-2740-xxxx}
+\def\@senderphone{+86-22-2740-7649}
 \def\@senderemail{[Email]}
 \def\@letterdate{\today}
 
@@ -116,7 +116,7 @@
 	\fontsize{7}{9}\selectfont \textcolor{TJUBlack}{%
 		\centering
 		\begin{tabular}{c}
-			\textcolor{TJUBlue}{\textbf{Weijin Road Campus:}} No.92 Weijin Road, Nankai District, Tianjin 300072, China \\
+			\textcolor{TJUBlue}{\textbf{Weijin Road Campus:}} No.92 Weijin Road, Nankai District, Tianjin 300072, China       \\
 			\textcolor{TJUBlue}{\textbf{Peiyangyuan Campus:}} No.135 Yaguan Road, Haihe Education Park, Tianjin 300350, China \\
 			\href{http://www.tju.edu.cn}{\textcolor{TJUBlack}{www.tju.edu.cn}}
 		\end{tabular}%
