@@ -1,0 +1,51 @@
+\documentclass{TJUletter} 
+
+% ==========================================
+% 1. Sender configuration
+% ==========================================
+\sendername{Dr. San Zhang}
+\sendertitle{Professor}
+\senderdept{College of Intelligence and Computing}
+\senderemail{san.zhang@tju.edu.cn}
+\signaturefile{assets/signature.png}         % Digital signature (optional)
+
+% Enable watermark (Peiyang Hall)
+\makeWatermark
+
+% ==========================================
+% 2. Letter body
+% ==========================================
+\begin{document}
+
+% --- Date ---
+\hfill \today
+
+% --- Recipient ---
+\vspace{1em}
+\noindent
+\textbf{To: Graduate Admissions Committee} \\
+Department of Computer Science \\
+Stanford University \\
+Stanford, CA 94305, USA
+
+\vspace{2em}
+\textbf{Re: Letter of Recommendation for Mx. Feathbow Shang}
+
+\vspace{1em}
+\textbf{Dear Members of the Admissions Committee,}
+
+% --- Body ---
+I recommend Mx. Feathbow Shang for admission to your Ph.D. program in Computer Science. Feathbow stands firmly within the top 5\% of their cohort, exhibiting a rare blend of theoretical depth and engineering pragmatism.
+
+I first encountered Feathbow in my graduate-level course, ``Advanced Algorithms and Data Structures,'' a module known for its heavy reliance on mathematical proofs and computational complexity analysis. They demonstrated an intuitive grasp of the underlying principles and secured a final grade of 95/100, ranking second in a class of 140 students.
+
+Feathbow's research potential became evident when they joined my laboratory in the summer of 2023 to assist with a project funded by the National Natural Science Foundation of China (NSFC), focused on ``Real-time Fluid Simulation for Interactive Graphics.'' Feathbow was tasked with optimizing the performance of our SPH-based solver. They analyzed cache-miss patterns in the neighbor search algorithm, identified memory access bottlenecks, and implemented a spatial hashing approach with SIMD vectorization. The result was a quantified 37\% speedup in frame rendering time without compromising physical accuracy.
+
+Feathbow is a valued member of our academic community at the Peiyangyuan Campus. They are an excellent collaborator and their command of technical English is excellent.
+
+They possess the in\-tel\-lec\-tual curiosity and technical rigor required to thrive in a top-tier research environment. I am confident that they will be a productive researcher from day one. I recommend them to you without reservation.
+
+% --- Signature block ---
+\makeSignature
+
+\end{document}
