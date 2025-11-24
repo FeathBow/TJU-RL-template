@@ -37,6 +37,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for reproducible builds
 
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
