@@ -8,6 +8,8 @@
   <img alt="Platform" src="https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey">
   <a href="https://www.overleaf.com"><img alt="Overleaf" src="https://img.shields.io/badge/Overleaf-Ready-47a141"></a>
   <img alt="Maintenance" src="https://img.shields.io/badge/Maintained-Yes-brightgreen">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/FeathBow/TJU-RL-template">
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/FeathBow/TJU-RL-template">
 </p>
 
 <p>
@@ -18,7 +20,7 @@
 
 **简体中文** | [English](README.md)
 
-天津大学学术推荐信专业 LaTeX 模板
+天津大学学术推荐信 LaTeX 模板
 
 </div>
 
@@ -36,9 +38,11 @@
 - [自定义设置](#自定义设置)
 - [开发](#开发)
 - [项目结构](#项目结构)
-- [致谢](#致谢)
 - [贡献](#贡献)
+- [致谢](#致谢)
+- [免责声明](#免责声明)
 - [许可证](#许可证)
+- [支持项目](#支持项目)
 
 ---
 
@@ -182,14 +186,6 @@ TJU-RL-template/
 
 ---
 
-## 致谢
-
-- **[TJU-VIS](https://github.com/tjuse/tju-vis)** - 为更便捷、规范地使用天津大学校徽、校标，该项目在天津大学视觉形象识别手册的基础上，进行了图形、文字的校正工作，并整理了完整的使用版本。
-- **[gitignore.io](https://github.com/toptal/gitignore)** - 提供专业的 .gitignore 模板生成服务。
-- LaTeX 社区
-
----
-
 ## 贡献
 
 欢迎贡献！您可以：
@@ -201,6 +197,14 @@ TJU-RL-template/
 
 ---
 
+## 致谢
+
+- **[TJU-VIS](https://github.com/tjuse/tju-vis)** - 为更便捷、规范地使用天津大学校徽、校标，该项目在天津大学视觉形象识别手册的基础上，进行了图形、文字的校正工作，并整理了完整的使用版本。
+- **[gitignore.io](https://github.com/toptal/gitignore)** - 提供 .gitignore 模板生成服务。
+- LaTeX 社区
+
+---
+
 ## 免责声明
 
 1. 本模板**仅供天大师生正当学术用途**使用。
@@ -208,9 +212,21 @@ TJU-RL-template/
 
 ---
 
-## 开源协议
+## 许可证
 
 [MIT License](LICENSE) - 可自由使用和修改。
+
+---
+
+## 支持项目
+
+如果这个项目对您或您的学生有帮助，欢迎给项目一个 star。这有助于更多人发现这个模板，也鼓励我们继续维护。
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=FeathBow/TJU-RL-template&type=Date)](https://star-history.com/#FeathBow/TJU-RL-template&Date)
+
+</div>
 
 ---
 

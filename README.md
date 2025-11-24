@@ -8,6 +8,8 @@
   <img alt="Platform" src="https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey">
   <a href="https://www.overleaf.com"><img alt="Overleaf" src="https://img.shields.io/badge/Overleaf-Ready-47a141"></a>
   <img alt="Maintenance" src="https://img.shields.io/badge/Maintained-Yes-brightgreen">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/FeathBow/TJU-RL-template">
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/FeathBow/TJU-RL-template">
 </p>
 
 <p>
@@ -18,7 +20,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-Professional LaTeX template for academic recommendation letters from Tianjin University
+A LaTeX template for academic recommendation letters from Tianjin University
 
 </div>
 
@@ -37,9 +39,11 @@ Professional LaTeX template for academic recommendation letters from Tianjin Uni
 - [Customization](#customization)
 - [Development](#development)
 - [Project Structure](#project-structure)
-- [Acknowledgments](#acknowledgments)
 - [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Disclaimer](#disclaimer)
 - [License](#license)
+- [Support](#support)
 
 ---
 
@@ -183,14 +187,6 @@ TJU-RL-template/
 
 ---
 
-## Acknowledgments
-
-- **[TJU-VIS](https://github.com/tjuse/tju-vis)** - For providing corrected and standardized Tianjin University visual identity assets (logo, wordmark) based on the official VI manual.
-- **[gitignore.io](https://github.com/toptal/gitignore)** - For providing professional .gitignore template generation service.
-- LaTeX community
-
----
-
 ## Contributing
 
 Contributions are welcome! Feel free to:
@@ -199,6 +195,14 @@ Contributions are welcome! Feel free to:
 - Suggest features
 
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details. No strict rules - keep it simple and helpful.
+
+---
+
+## Acknowledgments
+
+- **[TJU-VIS](https://github.com/tjuse/tju-vis)** - For providing corrected and standardized Tianjin University visual identity assets (logo, wordmark) based on the official VI manual.
+- **[gitignore.io](https://github.com/toptal/gitignore)** - For .gitignore template generation service.
+- LaTeX community
 
 ---
 
@@ -212,6 +216,18 @@ See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details. No strict rules - ke
 ## License
 
 [MIT License](LICENSE) - Free to use and modify.
+
+---
+
+## Support
+
+If this project has been helpful to you or your students, please consider giving it a star. It helps others discover this template and encourages continued maintenance.
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=FeathBow/TJU-RL-template&type=Date)](https://star-history.com/#FeathBow/TJU-RL-template&Date)
+
+</div>
 
 ---
 
