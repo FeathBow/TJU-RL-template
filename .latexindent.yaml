@@ -1,0 +1,34 @@
+# latexindent configuration for TJU-RL-template
+# Automatically format LaTeX files
+
+defaultIndent: "\t"
+
+# Don't create backup files
+onlyOneBackUp: 1
+maxNumberOfBackUps: 0
+
+# Indent environments
+indentAfterItems:
+    itemize: 1
+    enumerate: 1
+    description: 1
+
+# Don't indent after section headings
+indentAfterHeadings:
+  section:
+    indentAfterThisHeading: 0
+    level: 3
+  subsection:
+    indentAfterThisHeading: 0
+    level: 4
+
+# Don't modify verbatim environments
+verbatimEnvironments:
+    verbatim: 1
+    lstlisting: 1
+
+# Align delimiters in tables and equations
+lookForAlignDelims:
+    tabular: 1
+    align: 1
+    equation: 1

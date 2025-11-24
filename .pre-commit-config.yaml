@@ -1,0 +1,35 @@
+# pre-commit configuration for TJU-RL-template
+# Install: pip install pre-commit && pre-commit install
+# Run manually: pre-commit run --all-files
+
+repos:
+  # Official pre-commit hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=5000']
+      - id: mixed-line-ending
+
+  # Local LaTeX formatter (requires latexindent installed)
+  - repo: local
+    hooks:
+      - id: latexindent
+        name: latexindent LaTeX formatter
+        entry: latexindent
+        args: ["-w", "-s", "-l=.latexindent.yaml"]
+        language: system
+        files: \.(tex|cls)$
+
+  # Local chktex linter (requires chktex installed)
+  - repo: local
+    hooks:
+      - id: chktex
+        name: chktex LaTeX linter
+        entry: chktex
+        args: ["-q"]
+        language: system
+        files: \.(tex|cls)$

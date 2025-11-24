@@ -1,0 +1,16 @@
+# chktex configuration for TJU-RL-template
+# Suppress specific warnings for academic letter formatting
+
+# Default command-line options
+CmdLine
+{
+    -n1   # Allow \\ at end of line (common in tables and align environments)
+    -n8   # Allow commands with no arguments
+    -n12  # Don't warn about interword spacing in names
+    -n17  # Allow $...$ instead of \( ... \)
+    -n24  # Allow math mode without space before
+    -n38  # Allow punctuation before quotes (standard LaTeX style)
+}
+
+# Use logical quote style (standard for academic writing)
+QuoteStyle = Logical
