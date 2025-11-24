@@ -1,0 +1,13 @@
+# GitHub language detection configuration
+
+# LaTeX files
+*.tex linguist-language=TeX
+*.cls linguist-language=TeX
+
+# Documentation files
+*.md linguist-detectable=true
+
+# Assets
+*.pdf binary
+*.png binary
+*.jpg binary
