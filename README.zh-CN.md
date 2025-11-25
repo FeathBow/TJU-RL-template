@@ -18,6 +18,8 @@
   <a href="https://github.com/FeathBow/TJU-RL-template/actions"><img alt="CI Status" src="https://github.com/FeathBow/TJU-RL-template/actions/workflows/latex-ci.yml/badge.svg"></a>
 </p>
 
+![Banner](assets/social-preview.png)
+
 **简体中文** | [English](README.md)
 
 天津大学学术推荐信 LaTeX 模板
@@ -224,7 +226,13 @@ TJU-RL-template/
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=FeathBow/TJU-RL-template&type=Date)](https://star-history.com/#FeathBow/TJU-RL-template&Date)
+<a href="https://www.star-history.com/#FeathBow/TJU-RL-template&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FeathBow/TJU-RL-template&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FeathBow/TJU-RL-template&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FeathBow/TJU-RL-template&type=date&legend=top-left" />
+ </picture>
+</a>
 
 </div>
 
