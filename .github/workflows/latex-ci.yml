@@ -1,4 +1,6 @@
 name: LaTeX CI
+permissions:
+  contents: read
 
 on:
   push:
